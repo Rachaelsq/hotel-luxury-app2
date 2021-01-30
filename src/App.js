@@ -20,18 +20,18 @@ END IMPORTS
 */
 
 export default function App () {
-  return (
-      <div>
-          <Router>
-              <React.Fragment>
-                <Header />
-                  <Navbar />
-                  <Switch>
-                      <Route path="/" exact component={HomePage} />
-                  </Switch>
-              </React.Fragment>
-              </Router>
-      </div>
-  )
+    return (
+        <div>
+            <Router>
+                <React.Fragment>
+                    <Header />
+                    <Navbar />
+                    <Switch>
+                        <Route path="/" exact component={HomePage} />
+                    </Switch>
+                </React.Fragment>
+                </Router>
+        </div>
+    )
 }
 
