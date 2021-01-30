@@ -50,12 +50,19 @@ height: 50%;
 }
 
 
-#homeFeatureCards{
-  width: 18rem;
-}
 
 #homeCarouselImg{
   margin-bottom: 20px;
+}
+
+#featureContainer {
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  background-color: red;
+}
+#cardFlex{
+  width: 18rem;
 
 }
 

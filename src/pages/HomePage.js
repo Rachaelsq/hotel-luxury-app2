@@ -22,9 +22,10 @@ END IMPORTS
 export default function HomePage() {
     return (
         <div className="App">
-            <HomepageCarousel />
-            <h1>this is homepage</h1>
+            <HomepageCarousel />            
             <HomeFeatureCards />
+            <h1>this is homepage</h1>
+
         </div>
     );
 }
