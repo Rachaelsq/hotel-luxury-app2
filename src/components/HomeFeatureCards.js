@@ -6,11 +6,19 @@ import HomeFeatureCardsProps from "./HomeFeatureCardsProps"
 const HomeFeatureCards = (props) => {
     const homefeaturecards = [
         {
-            text:"text for card1",
+            text:"We offer the best dining experience that Nashville has to offer. choose from 15 different types of cuisine.",
             image:  "src={mainlogo}",
         },
         {
-            text:"text for card2",
+            text:"We have an in-house, award-winning, 5 star salon and spa. Get your hair done, your nails done, or get the best massage you have ever had.",
+            image:  "src={mainlogo}",
+        },
+        {
+            text:"Transportation is a breeze when you stay at Hotel Luxury. We offer complementary taxi rides to any address of your choice within a 30 mile radius.",
+            image:  "src={mainlogo}",
+        },
+        {
+            text:"Relax while we take care of everything. Our award winning service will not disappoint. ",
             image:  "src={mainlogo}",
         }
     ]
@@ -19,12 +27,10 @@ const HomeFeatureCards = (props) => {
 return (
     <section>
     <div class="card">
-            <img class="card-img-top" src="..." alt="Card image cap" />
             {homefeaturecards.map((homefeaturecardsprops) => (
-
             <div class="card-body">
-                <h5 class="card-title">{homefeaturecards.text}</h5>
-                <HomeFeatureCardsProps class="card-title"
+                <HomeFeatureCardsProps
+                
                 text={homefeaturecardsprops.text}
                 image={homefeaturecardsprops.image}
                 />
