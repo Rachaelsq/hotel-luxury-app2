@@ -46,11 +46,17 @@ height: 50%;
 } */
 
 #homeCarouselContainer{
-  height: 800px
+  margin-bottom: 20px;
 }
+
 
 #homeFeatureCards{
   width: 18rem;
+}
+
+#homeCarouselImg{
+  margin-bottom: 20px;
+
 }
 
 /* 

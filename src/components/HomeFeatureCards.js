@@ -17,7 +17,8 @@ const HomeFeatureCards = (props) => {
 
 
 return (
-    <div class="card" id="homeFeatureCards">
+    <section>
+    <div class="card">
             <img class="card-img-top" src="..." alt="Card image cap" />
             {homefeaturecards.map((homefeaturecardsprops) => (
 
@@ -30,6 +31,7 @@ return (
             </div>
             ))}
     </div>
+    </section>
 )
 }
 
