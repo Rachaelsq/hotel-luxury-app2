@@ -56,16 +56,22 @@ height: 50%;
 }
 
 #featureContainer {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   text-align: center;
-  background-color: red;
+/*   background-color: red;*/
 }
 #cardFlex{
   width: 18rem;
-
+  
 }
-
+.card-body{
+  min-height: 20rem;
+  
+}
+#homeImgRow{
+  margin-bottom: 20px;
+}
 /* 
 ============
 BOOK ROOM PAGE

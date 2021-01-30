@@ -27,16 +27,22 @@ const HomeFeatureCards = (props) => {
 return (
     <section>
         <React.Fragment>
-            <div class="card"  class="container-fluid d-flex" id="featureContainer">
+                <div class="card"  class="container-fluid d-flex" id="featureContainer">
                     {homefeaturecards.map((homefeaturecardsprops) => (
+                                    <div class="row">
+
+                    <div class="col-sm">
                     <div class="card-body">
-                        <div id="cardFlex">
+                        <div id="cardFlex ">
                         <HomeFeatureCardsProps                
                         text={homefeaturecardsprops.text}
                         img={homefeaturecardsprops.img}
                         />
                     </div>
                     </div>
+                    </div>
+                    </div>
+
                     ))}
             </div>
         </React.Fragment>
