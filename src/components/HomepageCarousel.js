@@ -14,7 +14,7 @@ export default function HomepageCarousel() {
                 />
                     <Carousel.Caption>
 {/*                         <h3>image caption</h3>
- */}                        <button type="button" class="btn btn-info">Reserve a room</button>
+ */}                        <button type="button" class="btn btn-info" id="reserveRoomBtn">Reserve a room</button>
 
                     </Carousel.Caption>
                     </Carousel.Item>
@@ -27,7 +27,7 @@ export default function HomepageCarousel() {
                 />
                     <Carousel.Caption>
 {/*                     <h3>image caption</h3>
- */}                    <button type="button" class="btn btn-info">Reserve a room</button>
+ */}                    <button type="button" class="btn btn-info" id="reserveRoomBtn">Reserve a room</button>
 
                     </Carousel.Caption>
             </Carousel.Item>
@@ -40,7 +40,7 @@ export default function HomepageCarousel() {
                 />
                     <Carousel.Caption>
 {/*                     <h3>image caption</h3>
- */}                    <button type="button" class="btn btn-info">Reserve a room</button>
+ */}                    <button type="button" class="btn btn-info" id="reserveRoomBtn">Reserve a room</button>
 
                     </Carousel.Caption>
             </Carousel.Item>
@@ -53,7 +53,7 @@ export default function HomepageCarousel() {
                 />
                     <Carousel.Caption>
 {/*                     <h3>image caption</h3>
- */}                    <button type="button" class="btn btn-info">Reserve a room</button>
+ */}                    <button type="button" class="btn btn-info" id="reserveRoomBtn">Reserve a room</button>
 
                     </Carousel.Caption>
             </Carousel.Item>
@@ -66,7 +66,7 @@ export default function HomepageCarousel() {
                 />
                     <Carousel.Caption>
 {/*                     <h3>image caption</h3>
- */}                    <button type="button" class="btn btn-info">Reserve a room</button>
+ */}                    <button type="button" class="btn btn-info" id="reserveRoomBtn">Reserve a room</button>
 
                     </Carousel.Caption>
             </Carousel.Item>
@@ -79,7 +79,7 @@ export default function HomepageCarousel() {
                 />
                     <Carousel.Caption>
 {/*                     <h3>image caption</h3>
- */}                    <button type="button" class="btn btn-info">Reserve a room</button>
+ */}                    <button type="button" class="btn btn-info" id="reserveRoomBtn">Reserve a room</button>
 
                     </Carousel.Caption>
             </Carousel.Item>

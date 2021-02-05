@@ -36,66 +36,136 @@ HEADER
   align-items: center;
 }
 
+#navbarFlexId{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 /* 
 ============
 HOMEPAGE
 ===========
 */
-/* #homeCarouselId {
-height: 50%;
-} */
 
+/* carousel */
 #homeCarouselContainer{
   margin-bottom: 20px;
 }
-
-
-
 #homeCarouselImg{
   margin-bottom: 20px;
 }
 
+#reserveRoomBtn{
+  font-size: 2rem;
+}
+
+
+/* feature cards */
+
 #featureContainer {
-  display: flex;
-  justify-content: center;
   text-align: center;
-/*   background-color: red;*/
 }
-#cardFlex{
-  width: 18rem;
-  
+
+.featCard{
+width:18rem;
+/* width: 40%;*/
 }
+
+#parent {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.child{
+
+}
+
+
+
+
+/* bottom row images */
 .card-body{
   min-height: 20rem;
   
 }
 #homeImgRow{
-  margin-bottom: 20px;
+  margin-bottom: 80px;
 }
+
+.homeimg {
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
 /* 
-============
+==============
 BOOK ROOM PAGE
-===========
+==============
 */
 
 
 /* 
-============
+===================
 VIEW ALL ROOMS PAGE
-===========
+===================
 */
 
 
 
 /* 
-============
+===============
 AMENITIES PAGE
-===========
+==============
 */
 
+
+#firstColumn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottomImg{
+  width: 35vw;
+}
 
 /* 
-============
+====================
 INDIVIDUAL ROOM PAGE
-===========
+====================
 */
+
+
+
+/*
+=============== 
+MEDIA SCREENS
+===============
+*/
+
+/* @media only screen and (max-width: 768px) {
+  .nav-link {
+    font-size: 10px;
+    color: red;
+
+  }
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+  NavWrapper {
+    font-size: 10px;
+    color: red;
+  }
+
+} */

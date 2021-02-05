@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 /* end of imports */
 
-export default function Navbar() {
+export default function Footer() {
     return (
-            <NavWrapper
+            <FooterWrapper
         className="navbar navbar-expand-sm navbar-dark"
         id="navbarFlexId"
         >
@@ -13,19 +13,20 @@ export default function Navbar() {
                 home
             </Link>
         
-        </NavWrapper>
+        </FooterWrapper>
     )
 }
 
 //styled component
 
-const NavWrapper = styled.nav`
- background: #00B2B8;
+const FooterWrapper = styled.footer`
+background: #00B2B8;
 box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 padding  0 0;
 padding-right: 15px;
-max-height: 50px;
+max-height: 250px;
+height: 250px;
 
 .nav-link {
         color: white !important;

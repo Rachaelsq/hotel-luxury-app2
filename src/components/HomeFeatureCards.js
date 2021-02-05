@@ -11,15 +11,15 @@ const HomeFeatureCards = (props) => {
         },
         {
             text:"We have an in-house, award-winning, 5 star salon and spa. Get your hair done, your nails done, or get the best massage you have ever had.",
-            img:  "src={mainlogo}",
+            img:  "https://i.imgur.com/pl7V6tv.png",
         },
         {
             text:"Transportation is a breeze when you stay at Hotel Luxury. We offer complementary taxi rides to any address of your choice within a 30 mile radius.",
-            img:  "src={mainlogo}",
+            img:  "https://i.imgur.com/pl7V6tv.png",
         },
         {
             text:"Relax while we take care of everything. Our award winning service will not disappoint. ",
-            img:  "src={mainlogo}",
+            img:  "https://i.imgur.com/pl7V6tv.png",
         }
     ]
 
@@ -27,23 +27,23 @@ const HomeFeatureCards = (props) => {
 return (
     <section>
         <React.Fragment>
-                <div class="card"  class="container-fluid d-flex" id="featureContainer">
+                <div class="container" id="featureContainer">
+                <div class="row" id="parent">
                     {homefeaturecards.map((homefeaturecardsprops) => (
-                                    <div class="row">
+                                    
 
-                    <div class="col-sm">
-                    <div class="card-body">
-                        <div id="cardFlex ">
-                        <HomeFeatureCardsProps                
-                        text={homefeaturecardsprops.text}
-                        img={homefeaturecardsprops.img}
-                        />
-                    </div>
-                    </div>
-                    </div>
-                    </div>
+                        
+                            
+                            <HomeFeatureCardsProps class="col-sm" id="child"               
+                            text={homefeaturecardsprops.text}
+                            img={homefeaturecardsprops.img}
+                            />
+
+
+                    
 
                     ))}
+            </div>
             </div>
         </React.Fragment>
     </section>
@@ -51,3 +51,6 @@ return (
 }
 
 export default HomeFeatureCards;
+/* 
+<div class="card"> 
+                        <div class="card-body" id="cardFlex"></div> */
