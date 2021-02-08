@@ -128,23 +128,29 @@ AMENITIES PAGE
 */
 
 
-#firstColumn{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+#imgColumns{
+
 }
 
-.bottomAmenitiesClass{
+#bottomAmenitiesId{
   width: 35%;
   margin-left: 2rem;
   margin-top: 2rem;
   margin-bottom: 4rem;
-}
-
-#bottomAmenitiesId{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.bottomImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inlineImg {
+margin-top: 20px;
+
 }
 
 /* 
