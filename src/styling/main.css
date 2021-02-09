@@ -127,13 +127,21 @@ AMENITIES PAGE
 ==============
 */
 
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 #AmenitiesBigContainer{
 margin-bottom: 4rem;
+
 }
 
 /* middle column */
 #middleColumn{
+ 
 }
 
 .middleBottom{
@@ -149,19 +157,29 @@ margin-bottom: 4rem;
   margin-right: 0;
     
 }
-#imgColumns{
+#lastColumn{
   padding-left: 0;
   padding-right: 0;
   
 }
 
 #bottomAmenitiesId{
-  width: 35%;
-  margin-left: 2rem;
+  width: 45%;
   margin-top: 2rem;
   margin-bottom: 4rem;
   display: flex;
 
+}
+
+#topSideImgId{
+  display: flex;
+align-items: center;
+justify-items: center;
+}
+.topSideImg{
+  display: flex;
+align-items: center;
+justify-items: center;
 }
 
 .bottomImg{
