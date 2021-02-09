@@ -128,8 +128,31 @@ AMENITIES PAGE
 */
 
 
-#imgColumns{
+#AmenitiesBigContainer{
+margin-bottom: 4rem;
+}
 
+/* middle column */
+#middleColumn{
+}
+
+.middleBottom{
+  margin-top: 20px;
+}
+
+
+
+/* side columns */
+
+.row-no-padding{
+  margin-left: 0;
+  margin-right: 0;
+    
+}
+#imgColumns{
+  padding-left: 0;
+  padding-right: 0;
+  
 }
 
 #bottomAmenitiesId{
@@ -138,14 +161,11 @@ AMENITIES PAGE
   margin-top: 2rem;
   margin-bottom: 4rem;
   display: flex;
-  justify-content: center;
-  align-items: center;
+
 }
 
 .bottomImg{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 5px;
 }
 
 .inlineImg {
