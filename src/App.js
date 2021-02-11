@@ -15,7 +15,7 @@ import Footer from "./components/Footer"
 import HomePage from "./pages/HomePage"
 import AmenitiesPage from "./pages/AmenitiesPage"
 import MakeAReservationPage from "./pages/MakeAReservationPage"
-import ViewRoomsPage from "./pages/HomePage"
+import ViewRoomsPage from "./pages/ViewRoomsPage"
 import TheWillow from "./pages/TheWillow"
 
 /* 
@@ -35,7 +35,7 @@ export default function App () {
                         <Route path="/" exact component={HomePage} />
                         <Route path="/Amenities" exact component={AmenitiesPage} />
                         <Route path="/makeareservation" exact component={MakeAReservationPage} />
-                        <Route path="/viewrooms" exact component={ViewRoomsPage} />
+                        <Route path="/viewroomspage" exact component={ViewRoomsPage} />
                         <Route path="/thewillow" exact component={TheWillow} />
                     </Switch>
                     <Footer />

@@ -36,7 +36,7 @@ export default function NavbarFunc() {
             <Link to="/makeareservation" className="nav-link">
                 make a reservation
             </Link>
-            <Link to="/viewrooms" className="nav-link">
+            <Link to="/viewroomspage" className="nav-link">
                 view rooms
             </Link>
 
