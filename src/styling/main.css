@@ -258,8 +258,18 @@ INDIVIDUAL ROOM PAGE
 ====================
 */
 
+.viewMore{
+  text-align: center;
+  margin-top: 20px;
+}
 
+.biggerColumn{
+  width: 80%;
+}
 
+.amenitiesColumn{
+  margin-left: 200px;
+}
 /*
 =============== 
 MEDIA SCREENS
