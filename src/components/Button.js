@@ -11,7 +11,7 @@ padding: 0.25em 1em;
 
 ${props => props.primary && css`
     background: palevioletred;
-    color: white;
+    color: cornflowerblue;
 `}
 `;
 
