@@ -43,12 +43,30 @@ HEADER
   align-items: center;
 }
 
+
+
+
+/* 
+====================
+FOOTER
+====================
+*/ 
+
+.footerCard{
+  height: 25%;
+
+  text-align: center;
+}
+
 #navbarFlexId{
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  height: 25%;
 }
+
+
 
 /* 
 ============
@@ -157,10 +175,10 @@ width: 100%;
   position: absolute;
   top: 70%;
   left: 50%;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   padding-top: 0px;
   padding-bottom:0px;
-  box-shadow: 0px 4px 10px 3px #ffffff, inset 0px 4px 10px rgba(189, 189, 189, 0.753);
+  box-shadow: 0px 2px 5px 1px #ffffff, inset 0px 4px 10px rgba(189, 189, 189, 0.753);
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }

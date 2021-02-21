@@ -4,30 +4,83 @@ import styled from "styled-components";
 /* end of imports */
 
 export default function Footer() {
-    return (
-            <FooterWrapper
-        className="navbar navbar-expand-sm navbar-dark"
-        id="navbarFlexId"
-        >
-            <Link to="/" className="nav-link">
-                home
-            </Link>
-        
-        </FooterWrapper>
-    )
+  return (
+    <FooterWrapper>
+    <div className="navbar navbar-expand-sm navbar-dark" id="navbarFlexId">
+    <div class="container-fluid px-0 py-4 mx-auto">
+    <div class="row justify-content-center mx-auto">
+{/*                     LEFT SIDE                             */}      
+        <div class="row justify-content-center">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="box">
+                <h4>Room Reservations</h4> <a href="#">
+                    <p>615-111-1111</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="box">
+                <h4>Sign up for weekly room offers</h4> <a href="#">
+                </a>
+
+                <form>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                
+                  
+                  <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+
+              </div>
+            </div>
+{/*                     LINKS                            */} 
+<hr></hr>     
+            <div class="col-md-7 d-flex justify-content-center mb-3 container-fluid">
+              <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a href="#">Home</a> </div>
+              <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a href="#">Amenities</a> </div>
+              <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a href="#">View Rooms</a> </div>
+              <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a href="#">Make a Reservation</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </FooterWrapper>
+
+
+
+
+
+
+
+
+
+
+
+);
 }
+
+
+
+/* 
+<Link to="/" className="nav-link">
+                home
+            </Link> */
+
 
 //styled component
 
 const FooterWrapper = styled.footer`
 background: #00B2B8;
-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 padding  0 0;
 padding-right: 15px;
 max-height: 250px;
-height: 250px;
-
+height: 25%;
 .nav-link {
         color: white !important;
         font-size: 1.3rem;
@@ -37,7 +90,6 @@ height: 250px;
         padding-left: 30px;
         padding-right: 30px;
         letter-spacing: 2px;
-
 
     &:hover{
         background: #005D6E;
