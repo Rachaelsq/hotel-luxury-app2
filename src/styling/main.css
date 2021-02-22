@@ -66,7 +66,9 @@ FOOTER
   height: 25%;
 }
 
-
+#emailHelp{
+font-size: large;
+}
 
 /* 
 ============
@@ -81,6 +83,10 @@ HOMEPAGE
 }
 #homeCarouselImg{
   margin-bottom: 20px;
+  margin-top: 20px;
+  width: 73vw;
+  box-shadow: 0px 2px 9px 1px #747474, inset 0px 2px 5px rgba(121, 121, 121, 0.25);
+
 }
 
 #reserveRoomBtn{
@@ -95,12 +101,14 @@ HOMEPAGE
 }
 
 .featCard{
-width:18rem;
-/* width: 40%;*/
+width:13rem;
+border: none;
+
 }
 
 #parent {
   display: flex;
+  justify-content: center;
   flex-direction: row;
   width: 100%;
   flex-wrap: wrap;

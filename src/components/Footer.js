@@ -14,25 +14,23 @@ export default function Footer() {
           <div class="row">
             <div class="col-md-6">
               <div class="box">
-                <h4>Room Reservations</h4> <a href="#">
-                    <p>615-111-1111</p>
+                <h2>Room Reservations</h2> <a href="#">
+                    <h3>615-111-1111</h3>
                 </a>
               </div>
             </div>
             <div class="col-md-6">
               <div class="box">
-                <h4>Sign up for weekly room offers</h4> <a href="#">
+                <h2>Sign up for weekly offers</h2> <a href="#">
                 </a>
 
                 <form>
                   <div class="form-group">
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
                   </div>
-                
-                  
-                  <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
+                  <button type="submit" class="btn btn-dark">Submit</button>
+                </form>
 
               </div>
             </div>

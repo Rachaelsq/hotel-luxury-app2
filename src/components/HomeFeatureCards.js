@@ -17,10 +17,11 @@ const HomeFeatureCards = (props) => {
             text:"Transportation is a breeze when you stay at Hotel Luxury. We offer complementary taxi rides to any address of your choice within a 30 mile radius.",
             img:  "https://i.imgur.com/pl7V6tv.png",
         },
+        
         {
             text:"Relax while we take care of everything. Our award winning service will not disappoint. ",
             img:  "https://i.imgur.com/pl7V6tv.png",
-        }
+        },
     ]
 
 
@@ -34,7 +35,7 @@ return (
 
                         
                             
-                            <HomeFeatureCardsProps class="col-sm" id="child"               
+                            <HomeFeatureCardsProps class="row child"             
                             text={homefeaturecardsprops.text}
                             img={homefeaturecardsprops.img}
                             />
