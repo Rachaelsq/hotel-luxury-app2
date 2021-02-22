@@ -20,36 +20,46 @@ return (
     <h3 class="justify-content-center" id="amenitiesTitle">Amenities </h3>
       <div class="container-fluid" id="AmenitiesBigContainer">
 
-      <div class="col-lg container-fluid" id="firstColumn">
+      <div class="col-xl container-fluid" id="firstColumn">
         <div class="row">
 
-          <div class="col-lg container-fluid ">
+          <div class="col-xl container-fluid ">
             <div class="row row-no-padding" id="topSideImgId">
-              <h3>column one</h3>
+              <h3 class="container-fluid justify-content-center d-flex">Relax...</h3>
               <img src="https://images.unsplash.com/photo-1610882290669-102aadebb413?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class=" topSideImg d-flex " alt="Responsive image" />
             </div>
-            <div class="" id="bottomAmenitiesId">
-              <img src="https://images.unsplash.com/photo-1567667593973-e5227038363c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class=" bottomImg container-fluid" alt="Responsive image" />
+            <div class="container-fluid justify-content-center d-flex" id="bottomAmenitiesId">
+              <img src="https://images.unsplash.com/photo-1567667593973-e5227038363c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class=" bottomImg container-fluid " alt="Responsive image" />
+              <img src="https://images.unsplash.com/photo-1600599067176-1f47e3b6fe47?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=798&q=80" class=" bottomImg container-fluid" alt="Responsive image" />
+            </div>
+            <div class="container-fluid justify-content-center d-flex" id="bottomAmenitiesId">
+              <img src="https://images.unsplash.com/photo-1567667593973-e5227038363c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class=" bottomImg container-fluid " alt="Responsive image" />
               <img src="https://images.unsplash.com/photo-1600599067176-1f47e3b6fe47?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=798&q=80" class=" bottomImg container-fluid" alt="Responsive image" />
             </div>
           </div>
 
-          <div class="col-lg container-fluid" id="middleColumn">
+          <div class="col-xl container-fluid" id="middleColumn">
             <div class="row row-no-padding">
-              <h3>column two</h3>
-              <img src="https://images.unsplash.com/photo-1588504273983-667893edbe3d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class=" d-flex " alt="Responsive image" />
-              <img src="https://images.unsplash.com/photo-1584772126711-017fae29eadd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" class=" bottomImg" alt="Responsive image" />
+              <h3 class="container-fluid justify-content-center d-flex">Refresh...</h3>
+              <img src="https://images.unsplash.com/photo-1588504273983-667893edbe3d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class=" " alt="Responsive image" />
+                <div class="col-lg d-flex justify-content-center" id="">
+                <img src="https://images.unsplash.com/photo-1584772126711-017fae29eadd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" class=" middleBottom " alt="Responsive image" />
+                </div>
             </div>
           </div>
 
-          <div class="col-lg container-fluid" id="lastColumn">
+          <div class="col-xl container-fluid" id="lastColumn">
             <div class="row row-no-padding">
-              <h3>column three</h3>
+              <h3 class="container-fluid justify-content-center d-flex">Rejuvenate...</h3>
               <img src="https://images.unsplash.com/photo-1567807052979-c991f0635b54?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class=" d-flex " alt="Responsive image" />
             </div>
-            <div class="" id="bottomAmenitiesId">
-              <img src="https://images.unsplash.com/photo-1528123887526-0775584e2093?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class=" bottomImg container-fluid" alt="Responsive image" />
-              <img src="https://images.unsplash.com/photo-1536936114683-1e27e62e3e9c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nzd8fGhvdGVsfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" class=" bottomImg container-fluid" alt="Responsive image" />
+            <div class="container-fluid justify-content-center d-flex" id="bottomAmenitiesId">
+              <img src="https://images.unsplash.com/photo-1528123887526-0775584e2093?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class=" bottomImg container-fluid rightPadding" alt="Responsive image" />
+              <img src="https://images.unsplash.com/photo-1536936114683-1e27e62e3e9c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nzd8fGhvdGVsfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" class=" bottomImg container-fluid rightPadding" alt="Responsive image" />
+            </div>                  
+            <div class="container-fluid justify-content-center d-flex" id="bottomAmenitiesId">
+              <img src="https://images.unsplash.com/photo-1528123887526-0775584e2093?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class=" bottomImg container-fluid rightPadding" alt="Responsive image" />
+              <img src="https://images.unsplash.com/photo-1536936114683-1e27e62e3e9c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nzd8fGhvdGVsfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" class=" bottomImg container-fluid rightPadding" alt="Responsive image" />
             </div>                  
           </div>
 
@@ -57,7 +67,7 @@ return (
         </div>
       </div>            
     </div>
-
+<hr></hr>
     <div class="container" id="homeImgRow">
       <div class="row">
         <div class="col-lg ">
