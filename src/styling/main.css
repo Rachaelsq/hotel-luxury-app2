@@ -119,10 +119,10 @@ border: none;
   flex-wrap: wrap;
 }
 
-/* .child{
+.child{
 
 }
- */
+
 /* bottom row images */
 .card-body{
   min-height: 20rem;
@@ -148,6 +148,16 @@ BOOK ROOM PAGE
 ==============
 */
 
+#BookRmJumboId{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.bookRmImg{
+  width: 70%;
+}
 
 /* 
 ===================
