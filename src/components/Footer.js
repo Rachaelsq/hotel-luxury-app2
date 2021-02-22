@@ -15,7 +15,7 @@ export default function Footer() {
             <div class="col-md-6">
               <div class="box">
                 <h2>Room Reservations</h2> <a href="#">
-                    <h3>615-111-1111</h3>
+                    <h3 class="nav-link">615-111-1111</h3>
                 </a>
               </div>
             </div>
@@ -35,12 +35,11 @@ export default function Footer() {
               </div>
             </div>
 {/*                     LINKS                            */} 
-<hr></hr>     
-            <div class="col-md-7 d-flex justify-content-center mb-3 container-fluid">
-              <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a href="#">Home</a> </div>
-              <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a href="#">Amenities</a> </div>
-              <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a href="#">View Rooms</a> </div>
-              <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a href="#">Make a Reservation</a> </div>
+            <div class="col-md-7 d-flex justify-content-center container-fluid footerLinks">
+              <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3 "> <a class="nav-link" href="#">Home</a> </div>
+              <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="nav-link" href="#">Amenities</a> </div>
+              <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="nav-link" href="#">View Rooms</a> </div>
+              <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="nav-link" href="#">Make a Reservation</a> </div>
           </div>
         </div>
       </div>
@@ -48,17 +47,6 @@ export default function Footer() {
     </div>
     </div>
     </FooterWrapper>
-
-
-
-
-
-
-
-
-
-
-
 );
 }
 
@@ -73,25 +61,22 @@ export default function Footer() {
 //styled component
 
 const FooterWrapper = styled.footer`
-background: #00B2B8;
+/* background: #00B2B8;*/
+background: #005D6E;
 }
 padding  0 0;
+margin-bottom: 10px;
 padding-right: 15px;
-max-height: 250px;
+max-height:450px;
 height: 25%;
 .nav-link {
         color: white !important;
         font-size: 1.3rem;
         text-transform: capitalize;
         transition: all 0.5s ease-in-out;
-        border: solid 1px #7e7e7e;
-        padding-left: 30px;
-        padding-right: 30px;
         letter-spacing: 2px;
 
     &:hover{
-        background: #005D6E;
-        border-radius: 14px;
         color: white;
     }
     }
