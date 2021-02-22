@@ -119,10 +119,10 @@ border: none;
   flex-wrap: wrap;
 }
 
-.child{
+/* .child{
 
 }
-
+ */
 /* bottom row images */
 .card-body{
   min-height: 20rem;
@@ -248,10 +248,10 @@ margin-bottom: 2rem;
   padding-right: 0;
 }
 
-#firstColumn {
+/* #firstColumn {
 
 }
-
+ */
 #bottomAmenitiesId{
    width: 300px;      /* add this back in to make bottom images smaller     */  
   margin-top: 2rem;
