@@ -379,6 +379,33 @@ INDIVIDUAL ROOM PAGE
   align-content: center;
 }
 
+
+
+
+/* 
+=======================
+MAKE A RESERVATION PAGE
+=======================
+*/
+
+
+
+
+/* 
+============
+MODAL
+===========
+*/
+
+#ReserveModalId{
+  color: green;
+  background-color: cornflowerblue;
+}
+
+
+
+
+
 /*
 =============== 
 MEDIA SCREENS
