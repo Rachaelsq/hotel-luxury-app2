@@ -189,7 +189,6 @@ VIEW ALL ROOMS PAGE
   padding-top: 0px;
   padding-bottom:0px;
   box-shadow: 0px 4px 10px 3px #272727, inset 0px 4px 10px rgba(0, 0, 0, 0.25);
-
 }
 
 .viewRmImg:hover{
@@ -321,13 +320,60 @@ INDIVIDUAL ROOM PAGE
   margin-top: 20px;
 }
 
-.biggerColumn{
-  width: 80%;
+/* .mainRmImg{
+  width:70%;
+} */
+
+.amenitiesContainer{
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  text-align: center;
 }
 
-.amenitiesColumn{
-  margin-left: 200px;
+.RmImg{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom:0px;
+  box-shadow: 0px 4px 10px 3px #272727, inset 0px 4px 10px rgba(0, 0, 0, 0.25);
 }
+
+
+.includedlAmenImg{
+  width: 25%;
+  margin-bottom: 30px;
+}
+
+.amenitiesLi{
+  font-size: 1.5rem;
+}
+
+.pageMargins{
+  margin-left: 5px ;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  padding-right: 5px ;
+  padding-left:  5px ;
+}
+
+/* #positioningId{
+  position: absolute;
+  left: 700px;
+  margin-left: 100px;
+} */
+
+.amenitiesColumnId{
+  margin-left: 5px ;
+  margin-right: 5px;
+  margin-bottom: 60px;
+  padding-right: 5px ;
+  padding-left:  5px ;
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+}
+
 /*
 =============== 
 MEDIA SCREENS

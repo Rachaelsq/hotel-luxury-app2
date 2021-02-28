@@ -2,75 +2,67 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 //images
-
 //pages
 //components
-
-
 /* 
 ============
 END IMPORTS
 ===========
 */
 
-
-
-
-
 export default function IncludedAmenities() {
-    return (
-        <div className="App">          
-            <div class="container-fluid" id="homeImgRow">
-                    <div class="row">
-
-                        <div class="col-lg ">
-                            <h2 class="viewRmTitle">The Cedar</h2>
-                            <div id="imgBtnContainer">
-                                <a href="www.google.com">
-                                    <img src="https://images.unsplash.com/photo-1471623600634-4d04cfc56a27?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="img-fluid viewRmImg" alt="Responsive image" />
-                                        <button type="button" class="btn btn-info visitBtn" id="">Visit the cedar</button>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg ">
-                            <h2 class="viewRmTitle">The Willow</h2>
-                            <div id="imgBtnContainer">
-                            <a href="/thewillow">
-                                <img src="https://images.unsplash.com/photo-1603198132334-5478a1ec5bc1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="img-fluid viewRmImg" alt="Responsive image" />
-                                    <button type="button" class="btn btn-info visitBtn" id="">Visit the Willow</button>
-                            </a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg ">
-                            <h2 class="viewRmTitle">The Aloe</h2>
-                            <div id="imgBtnContainer">
-                            <a href="www.google.com">
-                                <img src="https://images.unsplash.com/photo-1594900240017-d99eeb660287?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="img-fluid viewRmImg" alt="Responsive image" />
-                                <button type="button" class="btn btn-info visitBtn" id="">Visit the Aloe</button>
-                            </a>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-
-                    <div class="row">
-                        <div class="col-lg ">
-                        <h2 class="viewRmTitle">The Aspen <h6>(coming soon)</h6></h2>
-                            <img src="https://images.unsplash.com/photo-1588743903237-329f9da76dbe?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="img-fluid viewRmImg" alt="Responsive image" />
-                        </div>
-                        <div class="col-lg ">
-                        <h2 class="viewRmTitle">The Birch <h6>(coming soon)</h6></h2>
-                            <img src="https://images.unsplash.com/photo-1499916078039-922301b0eb9b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="img-fluid viewRmImg" alt="Responsive image" />
-                        </div>
-                       
-                    </div>
-</div>
-
-        </div>
-    );
+  return (
+    <>
+    <section  class="container-fluid" id="positioningId">
+      <div class="col-md-sm px-0 amenitiesColumns" id="amenitiesColumnId" >
+          <img class="card-img-top includedlAmenImg" src="https://i.imgur.com/vDrXMhr.png" alt="gym" />
+          <img class="card-img-top includedlAmenImg" src="https://i.imgur.com/nUKUp3f.png" alt="spa" />
+          <img class="card-img-top includedlAmenImg" src="https://i.imgur.com/bgneTnb.png" alt="taxi" />
+          <img class="card-img-top includedlAmenImg" src="https://i.imgur.com/lo9BzPz.png" alt="wifi" />
+          <div class="col-md-sm px-0 amenitiesColumns" id="amenitiesColumnId" >
+            <ul class="justify-content-center"> 
+              <li class="amenitiesLi">California king size bed with kitchenette</li> 
+              <li class="amenitiesLi">24 hour gym access</li> 
+              <li class="amenitiesLi">Unlimited massages and facials</li> 
+              <li class="amenitiesLi">Free rides within 30 miles of the hotel</li> 
+              <li class="amenitiesLi">Free high-speed internet</li> 
+              <li class="amenitiesLi">24 hour room service</li> 
+            </ul>
+          </div>
+      </div>
+    </section>
+    </>
+  );
 }
+
+
+
+
+/* 
+export default function IncludedAmenities() {
+  return (
+    <>
+    <section  class="" id="positioningId">
+      <div class="row px-0">
+      <div class="col-md-sm px-0 amenitiesColumns" >
+          <img class="card-img-top includedlAmenImg " src="https://i.imgur.com/vDrXMhr.png" alt="Card image cap" />
+      </div>
+      
+      <div class="col-6 px-0 amenitiesColumns" id="">
+          <img class="card-img-top includedlAmenImg " src="https://i.imgur.com/nUKUp3f.png" alt="Card image cap" />
+      </div>
+
+      <div class="col-6 px-0 amenitiesColumns" id="">
+          <img class="card-img-top includedlAmenImg " src="https://i.imgur.com/bgneTnb.png" alt="Card image cap" />
+      </div>
+
+      <div class="col-6 px-0 amenitiesColumns" id="">
+          <img class="card-img-top includedlAmenImg " src="https://i.imgur.com/lo9BzPz.png" alt="Card image cap" />
+      </div>
+      </div>
+
+    </section>
+    </>
+  );
+}
+ */
