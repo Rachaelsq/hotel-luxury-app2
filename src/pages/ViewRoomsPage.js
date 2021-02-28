@@ -23,7 +23,7 @@ export default function ViewRoomsPage() {
                         <div class="col-lg ">
                             <h2 class="viewRmTitle">The Cedar</h2>
                             <div id="imgBtnContainer">
-                                <a href="www.google.com">
+                                <a href="/thecedar">
                                     <img src="https://images.unsplash.com/photo-1471623600634-4d04cfc56a27?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="img-fluid viewRmImg" alt="Responsive image" />
                                         <button type="button" class="btn btn-info visitBtn" id="">Visit the cedar</button>
                                 </a>
@@ -43,7 +43,7 @@ export default function ViewRoomsPage() {
                         <div class="col-lg ">
                             <h2 class="viewRmTitle">The Sagebush</h2>
                             <div id="imgBtnContainer">
-                            <a href="www.google.com">
+                            <a href="/thesagebush">
                                 <img src="https://images.unsplash.com/photo-1574197634772-f0de0d41a02e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="img-fluid viewRmImg" alt="Responsive image" />
                                 <button type="button" class="btn btn-info visitBtn" id="">Visit the Sagebush</button>
                             </a>
@@ -53,7 +53,7 @@ export default function ViewRoomsPage() {
                         <div class="col-lg ">
                             <h2 class="viewRmTitle">The Aloe</h2>
                             <div id="imgBtnContainer">
-                            <a href="www.google.com">
+                            <a href="/thealoe">
                                 <img src="https://images.unsplash.com/photo-1594900240017-d99eeb660287?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="img-fluid viewRmImg" alt="Responsive image" />
                                 <button type="button" class="btn btn-info visitBtn" id="">Visit the Aloe</button>
                             </a>

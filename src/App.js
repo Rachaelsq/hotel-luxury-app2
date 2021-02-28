@@ -17,6 +17,9 @@ import AmenitiesPage from "./pages/AmenitiesPage"
 import MakeAReservationPage from "./pages/MakeAReservationPage"
 import ViewRoomsPage from "./pages/ViewRoomsPage"
 import TheWillow from "./pages/TheWillow"
+import TheCedar from "./pages/TheCedar"
+import TheSagebush from "./pages/TheSagebush"
+import TheAloe from "./pages/TheAloe"
 
 /* 
 ============
@@ -37,6 +40,9 @@ export default function App () {
                         <Route path="/makeareservation" exact component={MakeAReservationPage} />
                         <Route path="/viewroomspage" exact component={ViewRoomsPage} />
                         <Route path="/thewillow" exact component={TheWillow} />
+                        <Route path="/thecedar" exact component={TheCedar} />
+                        <Route path="/thesagebush" exact component={TheSagebush} />
+                        <Route path="/thealoe" exact component={TheAloe} />
                     </Switch>
                     <Footer />
                 </React.Fragment>
