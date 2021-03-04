@@ -3,6 +3,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 //pages
 import MakeAReservationPage from "../pages/MakeAReservationPage";
 //components
+import Calendar from "../components/calendarFiles/Calendar"
+/* import calendarStyle from ".../calendarFiles/calendarStyle"
+ */
+
 /* 
 ============
 END IMPORTS
@@ -24,6 +28,7 @@ export default function ReservationModal() {
       </div>
       <div class="modal-body">
         <p> hi, this is where the booking calendar will display.</p>
+        <Calendar />
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

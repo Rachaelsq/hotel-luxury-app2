@@ -1,11 +1,12 @@
-
 *,
 *::before,
 *::after  {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Lobster', cursive !important;
+/*   font-family: 'Lobster', cursive !important;
+ */ 
+  font-family: var(--font-book);
 
   /* font-family: 'Comfortaa', cursive important!;
   @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap'); 
@@ -20,11 +21,39 @@ nav ol ul li  {
 
 :root {
   --info: #17a2b8;
-
+  
+ /*  --font-light: "AirbnbCerealLight", sans-serif;
+  --font-book: "AirbnbCerealBook", sans-serif;
+  --font-black: "AirbnbCerealBlack", sans-serif;
+  font-family: var(--font-light); 
+   }
+  
+  @font-face {
+    font-family: "AirbnbCerealLight";
+    src: url(/fonts/AirbnbCerealLight.woff);
   }
   
-
-
+  @font-face {
+    font-family: "AirbnbCerealBook";
+    src: url(/fonts/AirbnbCerealBook.woff);
+  }
+  
+  @font-face {
+    font-family: "AirbnbCerealMedium";
+    src: url(/fonts/AirbnbCerealMedium.woff);
+  }
+  
+  @font-face {
+    font-family: "AirbnbCerealBold";
+    src: url(/fonts/AirbnbCerealBold.woff);
+  }
+  
+  @font-face {
+    font-family: "AirbnbCerealBlack";
+    src: url(/fonts/AirbnbCerealBlack.woff);
+  
+   */
+}
 /* END OF CSS RESET */
 
 /* 
