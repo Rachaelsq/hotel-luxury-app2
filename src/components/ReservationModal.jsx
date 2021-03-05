@@ -4,8 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import MakeAReservationPage from "../pages/MakeAReservationPage";
 //components
 import Calendar from "../components/calendarFiles/Calendar"
-/* import calendarStyle from ".../calendarFiles/calendarStyle"
- */
+import "../components/calendarFiles/calendarStyle.css"
 
 /* 
 ============
@@ -18,8 +17,8 @@ export default function ReservationModal() {
     <>
 
 <div class="modal fade" id="reserveModal" tabindex="-1" role="dialog" aria-labelledby="reserveModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content ">
       <div class="modal-header">
         <h5 class="modal-title" id="reserveModalLabel">Select your dates</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">

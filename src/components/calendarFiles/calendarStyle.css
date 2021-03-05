@@ -1,60 +1,77 @@
-:root {
-  --black: rgb(58, 58, 58);
-  --grey: rgb(205, 205, 205);
-  --white: rgb(240, 240, 240);
-  --red: rgb(206, 36, 36);
-  --light-blue: rgb(102, 193, 255);
-  --font-light: "AirbnbCerealLight", sans-serif;
-  --font-book: "AirbnbCerealBook", sans-serif;
-  --font-black: "AirbnbCerealBlack", sans-serif;
-  color: var(--black);
-  font-family: var(--font-light);
-  font-size: 16px;
-  text-rendering: optimizeLegibility;
-  -moz-osx-font-smoothing: grayscale;
-  font-smoothing: antialiased;
-  -webkit-font-smoothing: antialiased;
+*,
+*::before,
+*::after  {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Stick&display=swap');
+  font-family: 'Lobster Two', cursive;
 }
 
-@font-face {
-  font-family: "AirbnbCerealLight";
-  src: url(/fonts/AirbnbCerealLight.woff);
-}
-
-@font-face {
-  font-family: "AirbnbCerealBook";
-  src: url(/fonts/AirbnbCerealBook.woff);
-}
-
-@font-face {
-  font-family: "AirbnbCerealMedium";
-  src: url(/fonts/AirbnbCerealMedium.woff);
-}
-
-@font-face {
-  font-family: "AirbnbCerealBold";
-  src: url(/fonts/AirbnbCerealBold.woff);
-}
-
-@font-face {
-  font-family: "AirbnbCerealBlack";
-  src: url(/fonts/AirbnbCerealBlack.woff);
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
 .calendar {
   box-sizing: border-box;
   font-size: 1rem;
-  max-width: 400px;
+  max-width: 800px;
+  background-color: grey;
+  width: 85rem;
+   height: 54rem; 
+box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.5);
+  border-radius:1%;
+
 }
 
+.month{
+/*   width: 100%;*/ 
+  height: 8rem;
+  background-color:#00B2B8 ;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding:0 3rem;
+}
+
+.month i {
+margin-top: 3rem;
+cursor: pointer;
+}
+
+
+.date{
+  margin-top: 2rem;
+
+}
+
+/* END OF HEADER */
+
+.weekdays{
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem;
+  width: 100%;
+  height: 5rem;
+}
+
+.weekdays div{
+  font-size: 1rem;
+}
+
+
+
+
+/* 
 .calendar .header {
   background-color: var(--light-blue);
   text-align: center;
   min-height: 2rem;
   line-height: 2rem;
   color: var(--black);
-  font-family: var(--font-book);
   font-weight: 700;
   display: flex;
 }
@@ -132,3 +149,4 @@
 .calendar .day div.today {
   background-color: var(--grey);
 }
+ */
