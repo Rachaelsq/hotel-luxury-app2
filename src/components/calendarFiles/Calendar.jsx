@@ -115,49 +115,30 @@ return (
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* 
+alternate way of booking:
+have 2 containers: the check in date and check out date. use prev and nxt buttons to selevt
+filter rooms available by this date (array of rooms with date objects)
+when user clicks reserve room, date carries over
+*/
 
-return(
-  <div> 
-    <p>calendar here</p>
-      {
-        calendar.map(week => <div>
-          {
-            week.map(day => <div>
-              {day.format("D")</div>}
-              
-              )
 
-          }
-          
-          )
-      }    
-  </div>
-  )
-};
- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
