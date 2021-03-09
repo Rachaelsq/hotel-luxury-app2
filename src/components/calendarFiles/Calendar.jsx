@@ -20,23 +20,24 @@ END IMPORTS
 
 export default function calendar() {
   
+const date = new Date();
+const months = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December"
+]
 
-
-
-
-  /* 
-  1. 3 main parts: current month, weekdays, and days of the month
-  2. 
-  3. 
-  4. 
-  5. 
-  6
-  7. 
-  
-  */
-
-
-
+/* document.querySelector(".date h1").innerHTML = months[date.getMonth];}
+ */
 return (
   <>
   <div className="container">
@@ -45,7 +46,7 @@ return (
         <i className="fas fa-angle-left prev"></i>
 
         <div class="date">
-          <h1>May</h1>
+          <h1>{date.getMonth}</h1>
           <p>Friday May 29, 2020</p>
         </div>
 
